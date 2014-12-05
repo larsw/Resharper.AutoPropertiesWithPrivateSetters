@@ -70,8 +70,14 @@ namespace MrEric.Common
             if (languageHelper == null) return;
 
             var anchorInitializationAnchorMember = GetAnchorInitializationAnchorMember(Context.ConstructorDeclaration);
+#if RESHARPER8
             languageHelper.AddAssignmentToBody(Context.ConstructorDeclaration, anchorInitializationAnchorMember, false,
                 Context.Parameter, propertyDeclaration.DeclaredName);
+#endif 
+#if RESHARPER9
+            languageHelper.AddAssignmentToBody(Context.ConstructorDeclaration, anchorInitializationAnchorMember, false,
+                Context.Parameter, propertyDeclaration.DeclaredElement);
+#endif
         }
 
         [CanBeNull]

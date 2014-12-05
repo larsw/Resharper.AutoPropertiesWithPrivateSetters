@@ -5,6 +5,13 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrEric.R82", "MrEric\MrEric.R82.csproj", "{B4B69D6D-90E5-4C73-89B3-496E111C12CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrEric.R90", "MrEric\MrEric.R90.csproj", "{2D38ADC2-9AC9-433F-A6A1-AEC25994DB39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E2CBA1D3-BA60-43A4-AE8F-192302FB6179}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{B4B69D6D-90E5-4C73-89B3-496E111C12CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4B69D6D-90E5-4C73-89B3-496E111C12CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4B69D6D-90E5-4C73-89B3-496E111C12CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D38ADC2-9AC9-433F-A6A1-AEC25994DB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D38ADC2-9AC9-433F-A6A1-AEC25994DB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D38ADC2-9AC9-433F-A6A1-AEC25994DB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D38ADC2-9AC9-433F-A6A1-AEC25994DB39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

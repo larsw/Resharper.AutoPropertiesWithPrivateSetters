@@ -1,6 +1,8 @@
 ﻿using System.Reflection;
 using JetBrains.ActionManagement;
+#if RESHARPER8
 using JetBrains.Application.PluginSupport;
+#endif
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
@@ -19,7 +21,9 @@ using JetBrains.Application.PluginSupport;
 
 [assembly: ActionsXml("MrEric.Actions.xml")]
 
+#if RESHARPER8
 // The following information is displayed by ReSharper in the Plugins dialog
 [assembly: PluginTitle("Mr. Eric")]
 [assembly: PluginDescription("Create and initialize private auto-property action.")]
 [assembly: PluginVendor("Anton Sizikov")]
+#endif

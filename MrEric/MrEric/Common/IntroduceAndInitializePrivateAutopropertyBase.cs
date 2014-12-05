@@ -1,4 +1,9 @@
-﻿using JetBrains.ReSharper.Intentions.Extensibility;
+﻿#if RESHARPER8
+using JetBrains.ReSharper.Intentions.Extensibility;
+#endif
+#if RESHARPER9
+using JetBrains.ReSharper.Feature.Services.Bulbs;
+#endif
 using JetBrains.ReSharper.Psi;
 using JetBrains.ReSharper.Psi.CSharp;
 using JetBrains.ReSharper.Psi.Tree;
